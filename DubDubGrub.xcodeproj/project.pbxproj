@@ -13,6 +13,7 @@
 		01C46CD22687D73F008C078B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C46CD12687D73F008C078B /* Preview Assets.xcassets */; };
 		01C46CDA2687DAEB008C078B /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C46CD92687DAEB008C078B /* AppTabView.swift */; };
 		01C46CDC2687DB26008C078B /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C46CDB2687DB26008C078B /* LocationMapView.swift */; };
+		01C46CE0268860E7008C078B /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C46CDF268860E7008C078B /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		01C46CD32687D73F008C078B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01C46CD92687DAEB008C078B /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
 		01C46CDB2687DB26008C078B /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		01C46CDD26886017008C078B /* DubDubGrub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DubDubGrub.entitlements; sourceTree = "<group>"; };
+		01C46CDF268860E7008C078B /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C46CE0268860E7008C078B /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +46,7 @@
 			children = (
 				01C46CC92687D73D008C078B /* DubDubGrub */,
 				01C46CC82687D73D008C078B /* Products */,
+				01C46CDE268860E7008C078B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +61,7 @@
 		01C46CC92687D73D008C078B /* DubDubGrub */ = {
 			isa = PBXGroup;
 			children = (
+				01C46CDD26886017008C078B /* DubDubGrub.entitlements */,
 				01C46CCA2687D73D008C078B /* DubDubGrubApp.swift */,
 				01C46CCC2687D73D008C078B /* ContentView.swift */,
 				01C46CCE2687D73F008C078B /* Assets.xcassets */,
@@ -73,6 +79,14 @@
 				01C46CD12687D73F008C078B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01C46CDE268860E7008C078B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01C46CDF268860E7008C078B /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DubDubGrub/DubDubGrub.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DubDubGrub/Preview Content\"";
 				DEVELOPMENT_TEAM = Z65SM4MM3Q;
@@ -297,6 +312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DubDubGrub/DubDubGrub.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DubDubGrub/Preview Content\"";
 				DEVELOPMENT_TEAM = Z65SM4MM3Q;
