@@ -14,8 +14,7 @@ struct LocationListView: View {
         NavigationView {
             List {
                 ForEach(0..<10 , id:\.self) { item in
-                    NavigationLink(destination:
-                                    LocationDetailView(text: "Hello")) {
+                    NavigationLink(destination: LocationDetailView()) {
                         LocationListCellView()
                     }
                     
