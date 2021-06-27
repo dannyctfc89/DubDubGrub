@@ -32,6 +32,7 @@ struct LocationDetailView: View {
             
             Text("This is a text description. This is a text description . This is a text description .This is a text description .This is a text description .This is a text description")
                 .lineLimit(3)
+                .frame(height: 70)
                 .minimumScaleFactor(0.75)
                 .padding(.horizontal)
             
