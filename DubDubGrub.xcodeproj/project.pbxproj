@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016E0C15268879BE002F4160 /* LocationListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016E0C14268879BE002F4160 /* LocationListCellView.swift */; };
+		016E0C1726887D6C002F4160 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016E0C1626887D6C002F4160 /* LocationDetailView.swift */; };
 		01C46CCB2687D73D008C078B /* DubDubGrubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C46CCA2687D73D008C078B /* DubDubGrubApp.swift */; };
 		01C46CCF2687D73F008C078B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C46CCE2687D73F008C078B /* Assets.xcassets */; };
 		01C46CD22687D73F008C078B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C46CD12687D73F008C078B /* Preview Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		016E0C14268879BE002F4160 /* LocationListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListCellView.swift; sourceTree = "<group>"; };
+		016E0C1626887D6C002F4160 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		01C46CC72687D73D008C078B /* DubDubGrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubGrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C46CCA2687D73D008C078B /* DubDubGrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubGrubApp.swift; sourceTree = "<group>"; };
 		01C46CCE2687D73F008C078B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				01C46CD02687D73F008C078B /* Preview Content */,
 				01C46CD92687DAEB008C078B /* AppTabView.swift */,
 				01C46CE326886828008C078B /* LocationListView.swift */,
+				016E0C1626887D6C002F4160 /* LocationDetailView.swift */,
+				016E0C14268879BE002F4160 /* LocationListCellView.swift */,
 				01C46CE52688683A008C078B /* ProfileView.swift */,
 				01C46CDB2687DB26008C078B /* LocationMapView.swift */,
 				01C46CE126886564008C078B /* Color+Ext.swift */,
@@ -164,7 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016E0C15268879BE002F4160 /* LocationListCellView.swift in Sources */,
 				01C46CDA2687DAEB008C078B /* AppTabView.swift in Sources */,
+				016E0C1726887D6C002F4160 /* LocationDetailView.swift in Sources */,
 				01C46CDC2687DB26008C078B /* LocationMapView.swift in Sources */,
 				01C46CE426886828008C078B /* LocationListView.swift in Sources */,
 				01C46CCB2687D73D008C078B /* DubDubGrubApp.swift in Sources */,
